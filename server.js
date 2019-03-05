@@ -10,7 +10,7 @@ setInterval(() => {
   http.get(`http://<put your app name of glitch here>.glitch.me/`);
 }, 280000);
  
-const setupCMD = "<prefix>setreactionrole"
+const setupCMD = "!setreactionverify"
 let initialMessage = `**React to the messages below to receive the associated role. If you would like to remove the role, simply remove your reaction!**`;
 const roles = ["Verified"];
 const reactions = ["✅"];
